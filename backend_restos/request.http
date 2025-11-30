@@ -1,0 +1,21 @@
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "username": "miceldoang",
+    "email": "miceldoang@gmail.com",
+    "password": "micelmicelmicel",
+    "roleId": 1
+}
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "miceldoang",
+    "password": "micelmicelmicel"
+}
+
+###
+POST http://localhost:4000/authenticate
+Cookie: auth_token=ciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywidXNlcm5hbWUiOiJtaWNlbGRvYW5nIiwicm9sZUlkIjoxLCJpYXQiOjE3NjQ0OTkyOTcsImV4cCI6MTc2NDUwMjg5N30.YrJKkvoCmPVD1ZMimiHp3LBXE0LO0O0mt56yn8EYk-Y
